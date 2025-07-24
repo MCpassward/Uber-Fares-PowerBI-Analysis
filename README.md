@@ -98,6 +98,9 @@ These patterns provide clear evidence that Uber's demand and pricing strategy ar
 - Ride duration pie chart
 - Geographic pickup locations map
 
+**Example of Power bi report screenshot `![88](https://github.com/user-attachments/assets/307a21f7-0472-4577-91e9-b4e1141958f5)
+`.**
+
 **See screenshots in the `/screenshots/` folder.**
 
 **Author:**  
