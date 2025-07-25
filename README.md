@@ -101,24 +101,18 @@ These patterns provide clear evidence that Uber's demand and pricing strategy ar
 ## All screenshots of Results ##
 
 
-**Google colab python codes results Image **
+**Google colab python codes final result's Image after  cleanses **
 
 
-<img width="1365" height="660" alt="1" src="https://github.com/user-attachments/assets/d0677e68-c0a9-4fc4-bc95-2cb20016a501" />
-<img width="1366" height="701" alt="2" src="https://github.com/user-attachments/assets/b61f93ec-912e-436e-bb75-fbf96585b720" />
-<img width="1366" height="700" alt="3" src="https://github.com/user-attachments/assets/ae687d21-053e-4370-8ce1-1ac3f6e49926" />
-<img width="1366" height="663" alt="4" src="https://github.com/user-attachments/assets/d947660a-4d55-412a-bf34-03fd46d92f5c" />
-<img width="1360" height="702" alt="5" src="https://github.com/user-attachments/assets/86f2ea91-299c-45e4-bd2e-3e46ae301ddd" />
-<img width="1356" height="665" alt="6" src="https://github.com/user-attachments/assets/67d8a0bd-0517-426e-af00-9d2145203c60" />
-<img width="1366" height="658" alt="7" src="https://github.com/user-attachments/assets/e357330e-406f-41c7-bdf7-f69a152125f7" />
 <img width="1366" height="660" alt="8" src="https://github.com/user-attachments/assets/7a4dae11-0626-49db-8956-faea8e620ec6" />
 
 
-**POWER bi Reports Results Image**
+**Power BI Reports Results Image**
 
 
 ![88](https://github.com/user-attachments/assets/8ec48067-c99c-4f84-acee-5d6608ec1128)
 
+**For more :see all python codes and results in /`Images`/**
 
 **Author:**  
 Murenzi Charles  
