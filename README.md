@@ -104,7 +104,7 @@ These patterns provide clear evidence that Uber's demand and pricing strategy ar
 **Google colab python codes final result's Image after  cleanses **
 
 
-<img width="1366" height="660" alt="8" src="https://github.com/user-attachments/assets/7a4dae11-0626-49db-8956-faea8e620ec6" />
+<img width="1366" height="663" alt="4" src="https://github.com/user-attachments/assets/a030c265-e429-4d26-a29a-13c97932b997" />
 
 
 **Power BI Reports Results Image**
@@ -112,7 +112,7 @@ These patterns provide clear evidence that Uber's demand and pricing strategy ar
 
 ![88](https://github.com/user-attachments/assets/8ec48067-c99c-4f84-acee-5d6608ec1128)
 
-**For more :see all python codes and results in /`Images`/**
+##For more :see all python codes and results in /`Images`/##
 
 **Author:**  
 Murenzi Charles  
