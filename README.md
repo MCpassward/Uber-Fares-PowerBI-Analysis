@@ -118,6 +118,8 @@ These patterns provide clear evidence that Uber's demand and pricing strategy ar
 
 **Author:**  
 Murenzi Charles  
+**Instructor:**
+Lec.Maniraguha Eric
 INSY 8413 – Introduction to Big Data Analytics  
 AUCA, July 2025
 
