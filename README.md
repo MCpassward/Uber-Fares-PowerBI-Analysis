@@ -98,7 +98,7 @@ These patterns provide clear evidence that Uber's demand and pricing strategy ar
 - Ride duration pie chart
 - Geographic pickup locations map
 
-## All screenshots of Final Results ##
+## Sample Screenshots ##
 
 
 **Google colab python codes final result's Image after  cleanses**
