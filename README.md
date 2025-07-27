@@ -17,6 +17,9 @@ This project analyzes the Uber Fares dataset obtained from Kaggle to uncover ins
 **Data Source:**  
 Uber Fares Dataset from [Kaggle](https://www.kaggle.com)
 
+**Power BI File:**
+🔗 [Download Uber Engineered CSV from Google Drive](https://drive.google.com/file/d/1NFrtK7DaJ8u16HRmnni6OP-gqzFprx6I/view)
+
 **Tools Used:**
 - Python (Pandas, NumPy, Matplotlib)
 - Power BI Desktop
