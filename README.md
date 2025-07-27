@@ -114,7 +114,7 @@ print(f"Range: {data_range:.2f}")
 
 **Variable Relationships:**
 - Strong correlation between **fare amount** and **trip distance**.
-  **<img width="1360" height="702" alt="5" src="https://github.com/user-attachments/assets/5a50b721-a8fa-4692-b2e4-b308a3977059" />**
+  **<img width="1356" height="665" alt="6" src="https://github.com/user-attachments/assets/c5ec8e3e-6433-4e8c-9c3d-eb464a7b9293" />**
 - Fare values increase during **peak hours** and **weekends**.
 
 ---
@@ -168,8 +168,8 @@ These patterns provide clear evidence that Uber's demand and pricing strategy ar
 <img width="1366" height="700" alt="3" src="https://github.com/user-attachments/assets/ffa18d41-83a4-4314-ae57-ea7cf5c53056" />
 
 
+<img width="1360" height="702" alt="5" src="https://github.com/user-attachments/assets/5a50b721-a8fa-4692-b2e4-b308a3977059" />
 
-<img width="1356" height="665" alt="6" src="https://github.com/user-attachments/assets/c5ec8e3e-6433-4e8c-9c3d-eb464a7b9293" />
 <img width="1366" height="658" alt="7" src="https://github.com/user-attachments/assets/e620cb3a-2695-424a-a076-35d4d00bad61" />
 <img width="1366" height="660" alt="8" src="https://github.com/user-attachments/assets/9a6dbbd0-8ff0-4292-bfa8-766749e53fde" />
 
