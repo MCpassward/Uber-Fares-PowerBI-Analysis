@@ -18,7 +18,7 @@ This project analyzes the Uber Fares dataset obtained from Kaggle to uncover ins
 Uber Fares Dataset from [Kaggle](https://www.kaggle.com)
 
 **Power BI File:**
-🔗 [Here is Uber My Power BI file](https://drive.google.com/file/d/1NFrtK7DaJ8u16HRmnni6OP-gqzFprx6I/view)
+🔗 [Here is My Uber file Power BI ](https://drive.google.com/file/d/1NFrtK7DaJ8u16HRmnni6OP-gqzFprx6I/view)
 
 **Tools Used:**
 - Python (Pandas, NumPy, Matplotlib)
@@ -101,13 +101,21 @@ These patterns provide clear evidence that Uber's demand and pricing strategy ar
 - Ride duration pie chart
 - Geographic pickup locations map
 
-## Sample Screenshots ##
+## All Images(Screenshots) ##
 
 
 **Google colab python codes final result's Image after  cleanses**
 
-
+<img width="1365" height="660" alt="1" src="https://github.com/user-attachments/assets/7a7504ce-60cc-4329-a7c5-3358f848e468" />
+<img width="1366" height="701" alt="2" src="https://github.com/user-attachments/assets/571b6c2a-e067-433d-ad6c-ec876dacf8bf" />
+<img width="1366" height="700" alt="3" src="https://github.com/user-attachments/assets/ffa18d41-83a4-4314-ae57-ea7cf5c53056" />
 <img width="1366" height="663" alt="4" src="https://github.com/user-attachments/assets/a030c265-e429-4d26-a29a-13c97932b997" />
+<img width="1360" height="702" alt="5" src="https://github.com/user-attachments/assets/5a50b721-a8fa-4692-b2e4-b308a3977059" />
+<img width="1356" height="665" alt="6" src="https://github.com/user-attachments/assets/c5ec8e3e-6433-4e8c-9c3d-eb464a7b9293" />
+<img width="1366" height="658" alt="7" src="https://github.com/user-attachments/assets/e620cb3a-2695-424a-a076-35d4d00bad61" />
+<img width="1366" height="660" alt="8" src="https://github.com/user-attachments/assets/9a6dbbd0-8ff0-4292-bfa8-766749e53fde" />
+![9](https://github.com/user-attachments/assets/b01aa014-481f-4c8a-ab43-42e0aa71edb0)
+
 
 
 **Power BI Reports Results Image**
