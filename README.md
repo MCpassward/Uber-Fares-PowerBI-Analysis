@@ -62,6 +62,10 @@ df = df[df['fare_amount'] > 0]
 # Filter passenger count to a valid range (1 to 6)
 df = df[(df['passenger_count'] >= 1) & (df['passenger_count'] <= 6)]
 ```
+
+**<img width="1365" height="660" alt="1" src="https://github.com/user-attachments/assets/7a7504ce-60cc-4329-a7c5-3358f848e468" />
+<img width="1366" height="701" alt="2" src="https://github.com/user-attachments/assets/571b6c2a-e067-433d-ad6c-ec876dacf8bf" />
+<img width="1366" height="700" alt="3" src="https://github.com/user-attachments/assets/ffa18d41-83a4-4314-ae57-ea7cf5c53056" />**
 4. Engineered new features:
    - Extracted `hour`, `day`, `month`, and `year` from timestamp.
    - Created peak/off-peak indicators and weekday categories.
@@ -163,9 +167,8 @@ These patterns provide clear evidence that Uber's demand and pricing strategy ar
 
 **Google colab python codes for cleanses**
 
-<img width="1365" height="660" alt="1" src="https://github.com/user-attachments/assets/7a7504ce-60cc-4329-a7c5-3358f848e468" />
-<img width="1366" height="701" alt="2" src="https://github.com/user-attachments/assets/571b6c2a-e067-433d-ad6c-ec876dacf8bf" />
-<img width="1366" height="700" alt="3" src="https://github.com/user-attachments/assets/ffa18d41-83a4-4314-ae57-ea7cf5c53056" />
+
+
 
 
 <img width="1360" height="702" alt="5" src="https://github.com/user-attachments/assets/5a50b721-a8fa-4692-b2e4-b308a3977059" />
