@@ -201,8 +201,7 @@ These patterns provide clear evidence that Uber's demand and pricing strategy ar
 
 
 
-**For more :-see all screenshots of python codes and results in /`Images`/
-            -click on Top link for understanding more on Power BI**
+**For more :-see all screenshots of python codes and results in /`Images`/**
 
 **Author:** 
 
