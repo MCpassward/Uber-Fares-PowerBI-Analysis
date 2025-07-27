@@ -66,6 +66,7 @@ df = df[(df['passenger_count'] >= 1) & (df['passenger_count'] <= 6)]
    - Extracted `hour`, `day`, `month`, and `year` from timestamp.
    - Created peak/off-peak indicators and weekday categories.
 5. Saved the cleaned dataset as a `.csv` file for Power BI import.
+
 **💾 Save Cleaned CSV (for Power BI)**
 ```
 # Save cleaned data for Power BI
