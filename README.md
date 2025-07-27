@@ -104,6 +104,7 @@ print(f"Quartiles:\n{quartiles}")
 print(f"Range: {data_range:.2f}")
 ```
 **<img width="1032" height="487" alt="99" src="https://github.com/user-attachments/assets/d75c98cd-1365-4e36-838b-3c53b5a5f750" />**
+
 **Visual Insights:**
 - **Fare Patterns by Hour**: Sharp increases during morning and evening peaks.
 - **Hourly Ride Patterns**: Majority of rides happen in the afternoon and evening.
