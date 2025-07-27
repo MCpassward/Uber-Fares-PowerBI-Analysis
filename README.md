@@ -125,6 +125,7 @@ print(f"Standard Deviation: {std_fare:.2f}")
 print(f"Quartiles:\n{quartiles}")
 print(f"Range: {data_range:.2f}")
 ```
+<img width="1032" height="487" alt="99" src="https://github.com/user-attachments/assets/d75c98cd-1365-4e36-838b-3c53b5a5f750" />
 **Visual Insights:**
 - **Fare Patterns by Hour**: Sharp increases during morning and evening peaks.
 - **Hourly Ride Patterns**: Majority of rides happen in the afternoon and evening.
@@ -187,7 +188,7 @@ These patterns provide clear evidence that Uber's demand and pricing strategy ar
 <img width="1366" height="701" alt="2" src="https://github.com/user-attachments/assets/571b6c2a-e067-433d-ad6c-ec876dacf8bf" />
 <img width="1366" height="700" alt="3" src="https://github.com/user-attachments/assets/ffa18d41-83a4-4314-ae57-ea7cf5c53056" />
 <img width="1366" height="663" alt="4" src="https://github.com/user-attachments/assets/a030c265-e429-4d26-a29a-13c97932b997" />
-<img width="1032" height="487" alt="99" src="https://github.com/user-attachments/assets/d75c98cd-1365-4e36-838b-3c53b5a5f750" />
+
 <img width="1360" height="702" alt="5" src="https://github.com/user-attachments/assets/5a50b721-a8fa-4692-b2e4-b308a3977059" />
 <img width="1356" height="665" alt="6" src="https://github.com/user-attachments/assets/c5ec8e3e-6433-4e8c-9c3d-eb464a7b9293" />
 <img width="1366" height="658" alt="7" src="https://github.com/user-attachments/assets/e620cb3a-2695-424a-a076-35d4d00bad61" />
