@@ -27,16 +27,75 @@ Uber Fares Dataset from [Kaggle](https://www.kaggle.com)
 
 **Workflow:**
 1. Imported the raw dataset using Python and Pandas.
+```
+import pandas as pd
+
+# Load the dataset
+df = pd.read_csv("uber.csv")
+df.head()
+```
+🔍Inspect Data
+```
+# See info about columns
+df.info()
+
+# Check for missing values
+df.isnull().sum()
+```
 2. Performed Exploratory Data Analysis (EDA) to examine structure and quality.
-3. Cleaned the dataset:
+3. 🧹Cleaned the dataset:
    - Removed nulls and duplicates.
    - Filtered out invalid fare amounts and distances.
+```
+# Drop 'Unnamed: 0' column
+df.drop(columns=['Unnamed: 0'], inplace=True)
+
+# Convert pickup_datetime to datetime
+df['pickup_datetime'] = pd.to_datetime(df['pickup_datetime'], errors='coerce')
+
+# Drop rows with missing values
+df.dropna(inplace=True)
+
+# Remove negative or zero fare amounts
+df = df[df['fare_amount'] > 0]
+
+# Filter passenger count to a valid range (1 to 6)
+df = df[(df['passenger_count'] >= 1) & (df['passenger_count'] <= 6)]
+```
 4. Engineered new features:
    - Extracted `hour`, `day`, `month`, and `year` from timestamp.
    - Created peak/off-peak indicators and weekday categories.
 5. Saved the cleaned dataset as a `.csv` file for Power BI import.
+💾 Save Cleaned CSV (for Power BI)
+```
+# Save cleaned data for Power BI
+df.to_csv("uber_cleaned.csv", index=False)
+```
 6. Imported into Power BI and built the dashboard.
+```
+import zipfile
 
+# Unzip the uploaded file
+with zipfile.ZipFile("uber.csv.zip", "r") as zip_ref:
+    zip_ref.extractall()
+```
+Check If File Was Extracted
+```
+import os
+
+# List files to confirm it's there
+print(os.listdir())
+```
+📥Load the Dataset
+```
+import pandas as pd
+
+# Load the extracted CSV
+df = pd.read_csv("uber.csv")
+
+# Display first few rows
+df.head()
+```
 ---
 
 ## 📊 Analysis: Detailed Findings and Statistical Insights
@@ -47,7 +106,25 @@ Uber Fares Dataset from [Kaggle](https://www.kaggle.com)
 - **Max fare:** \$497.00  
 - **Common fare range:** \$7–\$15  
 - **Peak ride hours:** 5 PM – 8 PM
+```
+# Descriptive statistics
+mean_fare = df['fare_amount'].mean()
+median_fare = df['fare_amount'].median()
+mode_fare = df['fare_amount'].mode()[0]
+std_fare = df['fare_amount'].std()
 
+# Quartiles
+quartiles = df['fare_amount'].quantile([0.25, 0.5, 0.75])
+data_range = df['fare_amount'].max() - df['fare_amount'].min()
+
+# Display results
+print(f"Mean Fare: {mean_fare:.2f}")
+print(f"Median Fare: {median_fare:.2f}")
+print(f"Mode Fare: {mode_fare:.2f}")
+print(f"Standard Deviation: {std_fare:.2f}")
+print(f"Quartiles:\n{quartiles}")
+print(f"Range: {data_range:.2f}")
+```
 **Visual Insights:**
 - **Fare Patterns by Hour**: Sharp increases during morning and evening peaks.
 - **Hourly Ride Patterns**: Majority of rides happen in the afternoon and evening.
