@@ -66,36 +66,14 @@ df = df[(df['passenger_count'] >= 1) & (df['passenger_count'] <= 6)]
    - Extracted `hour`, `day`, `month`, and `year` from timestamp.
    - Created peak/off-peak indicators and weekday categories.
 5. Saved the cleaned dataset as a `.csv` file for Power BI import.
-💾 Save Cleaned CSV (for Power BI)
+**💾 Save Cleaned CSV (for Power BI)**
 ```
 # Save cleaned data for Power BI
 df.to_csv("uber_cleaned.csv", index=False)
 ```
-6. Imported into Power BI and built the dashboard.
-```
-import zipfile
+**<img width="1366" height="663" alt="4" src="https://github.com/user-attachments/assets/a030c265-e429-4d26-a29a-13c97932b997" />**
+6. Import into Power BI and built the dashboard.
 
-# Unzip the uploaded file
-with zipfile.ZipFile("uber.csv.zip", "r") as zip_ref:
-    zip_ref.extractall()
-```
-Check If File Was Extracted
-```
-import os
-
-# List files to confirm it's there
-print(os.listdir())
-```
-📥Load the Dataset
-```
-import pandas as pd
-
-# Load the extracted CSV
-df = pd.read_csv("uber.csv")
-
-# Display first few rows
-df.head()
-```
 ---
 
 ## 📊 Analysis: Detailed Findings and Statistical Insights
@@ -187,7 +165,7 @@ These patterns provide clear evidence that Uber's demand and pricing strategy ar
 <img width="1365" height="660" alt="1" src="https://github.com/user-attachments/assets/7a7504ce-60cc-4329-a7c5-3358f848e468" />
 <img width="1366" height="701" alt="2" src="https://github.com/user-attachments/assets/571b6c2a-e067-433d-ad6c-ec876dacf8bf" />
 <img width="1366" height="700" alt="3" src="https://github.com/user-attachments/assets/ffa18d41-83a4-4314-ae57-ea7cf5c53056" />
-<img width="1366" height="663" alt="4" src="https://github.com/user-attachments/assets/a030c265-e429-4d26-a29a-13c97932b997" />
+
 
 <img width="1360" height="702" alt="5" src="https://github.com/user-attachments/assets/5a50b721-a8fa-4692-b2e4-b308a3977059" />
 <img width="1356" height="665" alt="6" src="https://github.com/user-attachments/assets/c5ec8e3e-6433-4e8c-9c3d-eb464a7b9293" />
